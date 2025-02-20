@@ -109,3 +109,31 @@ button:disabled {
     font-size: 0.9rem;
     color: #F59E0B;
 }
+
+/* Logo Styling */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Space between logos */
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 100px; /* Adjust as needed */
+    height: auto;
+    object-fit: contain;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+    .logo {
+        max-width: 80px;
+    }
+}
+
+@media (max-width: 400px) {
+    .logo {
+        max-width: 60px;
+    }
+}
