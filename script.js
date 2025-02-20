@@ -1,7 +1,7 @@
 const questions = [
     { q: "I stand guard, allowing only a forward march, but in reverse, I shut the gates. Who am I?", a: "Diode", room: "Room 405" },
     { q: "I do not move, yet I shape the journey of all who pass through me. Their force weakens in my presence, yet without me, destruction looms. What am I?", a: "Resistor", room: "AEC Lab" },
-    { q: "I dance with electromagnetism, changing power’s height without ever touching it. Who am I?", a: "Transformer", room: "Room 303" }
+    { q: "I dance with electromagnetism, changing power's height without ever touching it. Who am I?", a: "Transformer", room: "Room 303" }
 ];
 
 let attemptCounts = JSON.parse(localStorage.getItem("attemptCounts")) || Array(questions.length).fill(0);
